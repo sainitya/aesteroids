@@ -1,10 +1,4 @@
 # aesteroids
-Brief description of the project.
 
-Table of Contents
-Introduction
-Features
-Getting Started
-Usage
-Contributing
-License
+A brief description of what this project does and who it's for
+
