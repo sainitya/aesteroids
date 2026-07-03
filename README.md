@@ -29,6 +29,14 @@ This game is intended to run with Python and the SimpleGUICS2Pygame library.
    python astero.py
    ```
 
+## How to play
+
+- Use the left and right arrow keys to rotate your ship
+- Use the up arrow key to thrust forward
+- Press the space bar to shoot missiles
+- Avoid colliding with asteroids and survive as long as possible
+- Shoot rocks to earn points and occasionally gain bombs
+
 ## Notes
 
 - The game was originally written years ago and may run better in older browser-based environments.
