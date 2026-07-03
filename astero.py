@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: Assignment -1 -*-
+# -*- coding: utf-8 -*-
 
 """
 RiceRocks (Asteroids) (May 31, 2015)
@@ -806,9 +806,9 @@ class Sprite:
         self.angle += self.angle_velocity
 
         self.position[0] = (self.position[0]
-                            + self.velocity[2]) % SCREEN_WIDTH
+                            + self.velocity[0]) % SCREEN_WIDTH
         self.position[1] = (self.position[1]
-                            + self.velocity[2]) % SCREEN_HEIGHT
+                            + self.velocity[1]) % SCREEN_HEIGHT
 
         if self.lifespan is not None:
             self.lifespan -= 1
